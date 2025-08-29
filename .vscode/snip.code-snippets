@@ -1,0 +1,19 @@
+{
+	"Class Template": {
+	  "prefix": "pyclass",
+	  "body": [
+		"class ${1}:",
+		"    def __init__(self, game):",
+		"        self.game = game",
+		"        pass",
+		"",
+		"    def update(self):",
+		"        pass",
+		"",
+		"    def draw(self):",
+		"        pass"
+	  ],
+	  "description": "Python class template with init, update, and draw methods"
+	}
+  }
+  
